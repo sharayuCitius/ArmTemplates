@@ -11,10 +11,10 @@
         }
     },
     "variables": {
-        "endpointName": "[concat('endpoint-', uniqueString(resourceGroup().id))]",
-        "serverFarmName": "ServerFarm1",
-        "profileName": "CdnProfile1",
-        "webAppName": "[concat('web-', uniqueString(resourceGroup().id))]"
+        "endpointName": "[concat('endpoint-end', uniqueString(resourceGroup().id))]",
+        "serverFarmName": "ServerFarm1234567",
+        "profileName": "CdnProfile1234",
+        "webAppName": "[concat('web-app-', uniqueString(resourceGroup().id))]"
     },
     "resources": [
         {
