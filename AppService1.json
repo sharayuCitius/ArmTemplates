@@ -12,9 +12,9 @@
     },
     "variables": {
         
-        "serverFarmName": "ServerFarm1",
+        "serverFarmName": "ServerFarm123",
         
-        "webAppName": "[concat('web-', uniqueString(resourceGroup().id))]"
+        "webAppName": "webApp123"
     },
     "resources": [
         {
