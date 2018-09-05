@@ -11,9 +11,9 @@
         }
     },
     "variables": {
-        "endpointName": "[concat('endpoint-', uniqueString(resourceGroup().id))]",
+        
         "serverFarmName": "ServerFarm1",
-        "profileName": "CdnProfile1",
+        
         "webAppName": "[concat('web-', uniqueString(resourceGroup().id))]"
     },
     "resources": [
@@ -50,8 +50,5 @@
             }
         }
         
-    ],
-    "outputs": {
-       
-    }
+    ]
 }
